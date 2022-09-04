@@ -1,8 +1,5 @@
 import ReactTooltip from "react-tooltip";
 
-
-
-
   const formatBalance = (value) => {
     if (value >0) {
         return Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value);
