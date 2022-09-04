@@ -17,7 +17,7 @@ function NavBar() {
                         <Nav.Link data-tip data-for="existAccTip"  className="nav-link" to="/login" as={Link} href="/login" > Login</Nav.Link>
                         <Nav.Link data-tip data-for="depositTip" className="nav-link" to="/deposit" as={Link} href="/deposit"> Deposit</Nav.Link>
                         <Nav.Link data-tip data-for="withdrawTip" className="nav-link" to="/withdraw" as={Link} href="/withdraw" > Withdraw</Nav.Link>
-                        <Nav.Link data-tip data-for="allDataTip" className="nav-link" to="/allData" as={Link} href="/allData" > Bank Operations</Nav.Link>
+                        <Nav.Link data-tip data-for="allDataTip" className="nav-link" to="/allData" as={Link} href="/allData" > All Transactions</Nav.Link>
                         <Nav.Link data-tip data-for="aboutTip" className="nav-link" to="/about" as={Link} href="/about" > About</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
